@@ -59,7 +59,7 @@ function myFunction() {
 
 
         // Schleife Szenario 2 geht
-    for (let i = 0; i < example.length; i++) {
+/*     for (let i = 0; i < example.length; i++) {
         console.log(example[i]);
         console.log(i);
         console.log(example[i]);
@@ -69,9 +69,9 @@ function myFunction() {
             console.log(Array.isArray(example)); // false    --> nein  ist  kein Array
             example[i].classList.toggle("js_backgroundColor___black");
 
-        }
+        } */
 
         btn.style.backgroundColor = "gray";
 
     }
-}
+
